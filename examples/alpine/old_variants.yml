@@ -1,0 +1,71 @@
+variants:
+  - image:
+      name: alpine
+      tag: 3.13
+    source:
+      name: alpine
+      tag: "3.13"
+    variables:
+      maintainer: 'Betriebssysteme & Cloud <syx.bbz@bedag.ch>'
+      confd_version: '0.16.0'
+      confd_sha: '255d2559f3824dd64df059bdc533fd6b697c070db603c76aaf8d1d5e6b0cc334'
+      gosu_version: '1.14'
+      gosu_sha: 'bd8be776e97ec2b911190a82d9ab3fa6c013ae6d3121eea3d0bfd5c82a0eaf8c'
+  - image:
+      name: alpine
+      tag: 3.14
+    source:
+      name: alpine
+      tag: "3.14"
+    variables:
+      maintainer: 'Betriebssysteme & Cloud <syx.bbz@bedag.ch>'
+      confd_version: '0.16.0'
+      confd_sha: '255d2559f3824dd64df059bdc533fd6b697c070db603c76aaf8d1d5e6b0cc334'
+      gosu_version: '1.14'
+      gosu_sha: 'bd8be776e97ec2b911190a82d9ab3fa6c013ae6d3121eea3d0bfd5c82a0eaf8c'
+  - image:
+      name: alpine
+      tag: "3.15"
+    source:
+      name: alpine
+      tag: "3.15"
+    variables:
+      maintainer: 'Betriebssysteme & Cloud <syx.bbz@bedag.ch>'
+      confd_version: '0.16.0'
+      confd_sha: '255d2559f3824dd64df059bdc533fd6b697c070db603c76aaf8d1d5e6b0cc334'
+      gosu_version: '1.14'
+      gosu_sha: 'bd8be776e97ec2b911190a82d9ab3fa6c013ae6d3121eea3d0bfd5c82a0eaf8c'
+  - image:
+      name: alpine
+      tag: "3.16"
+    source:
+      name: alpine
+      tag: "3.16"
+    variables:
+      maintainer: 'Betriebssysteme & Cloud <syx.bbz@bedag.ch>'
+      confd_version: '0.16.0'
+      confd_sha: '255d2559f3824dd64df059bdc533fd6b697c070db603c76aaf8d1d5e6b0cc334'
+      gosu_version: '1.14'
+      gosu_sha: 'bd8be776e97ec2b911190a82d9ab3fa6c013ae6d3121eea3d0bfd5c82a0eaf8c'
+  - image:
+      name: alpine
+      tag: latest
+    source:
+      name: alpine
+      tag: "latest"
+    variables:
+      maintainer: 'Betriebssysteme & Cloud <syx.bbz@bedag.ch>'
+      confd_version: '0.16.0'
+      confd_sha: '255d2559f3824dd64df059bdc533fd6b697c070db603c76aaf8d1d5e6b0cc334'
+      gosu_version: '1.14'
+      gosu_sha: 'bd8be776e97ec2b911190a82d9ab3fa6c013ae6d3121eea3d0bfd5c82a0eaf8c'
+  - image:
+      name: alpine
+      tag: "edge"
+    source:
+      name: alpine
+      tag: "edge"
+    variables:
+      maintainer: 'Betriebssysteme & Cloud <syx.bbz@bedag.ch>'
+      confd_version: '0.16.0'
+      confd_sha: '255d2559f3824dd64df059bdc533fd6b697c070db603c76aaf8d1d5e6b0cc334'
